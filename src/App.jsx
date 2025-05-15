@@ -1,5 +1,11 @@
 import React from "react";
 
+import TargetFace from "./components/targetFace/TargetFace";
+
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <TargetFace />
+    </div>
+  );
 }
