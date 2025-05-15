@@ -1,3 +1,41 @@
 .UploadTemplate {
-  border: 1px solid red;
+  padding: 2vw;
+  // border: 1px solid red;
+  gap: 2vw;
+  .upload {
+    font-size: 2vw;
+  }
+  .upload-cont {
+    padding: 2vw;
+    border: 1px solid rgb(76, 72, 72);
+    background: white;
+    width: 30%;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .icon-part {
+    font-size: 3vw;
+    border: none;
+    color: rgb(240, 116, 38);
+  }
+  .image-preview {
+    // border: 1px solid rgb(76, 72, 72);
+    width: 100%;
+    height: 20vw;
+    .imgs {
+      width: 100%;
+      height: 100%;
+
+      object-fit: contain;
+    }
+  }
+  .upload-button {
+    padding: 0.6vw 1.2vw;
+    font-size: 1.1vw;
+    border-radius: 0.4vw;
+    background: rgb(41, 66, 209);
+    color: white;
+    border: none;
+  }
 }
